@@ -2,17 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Virtual Reality Experiment With Google Cardbord</title>
-    <meta name="description" content="Virtual Reality Experiment With Google Cardbord">
+    <title>A Frame With Curved Images With Pictures From Shots of Awe</title>
+    <meta name="description" content="A Frame With Curved Images With Pictures From Shots of Awe">
     <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene>
-      <!--<a-sky src="ayutthaya.vr.jpg" rotation="0 -130 0"></a-sky>-->
-      <!--<a-sky src="jimhouse.vr.jpg" rotation="0 -130 0"></a-sky>-->
-      <!--<a-sky src="kayaking.vr.jpg" rotation="0 -130 0"></a-sky>-->
-      <a-sky src="prayingtobuddha.vr.jpg" rotation="0 -130 0"></a-sky>
+  <a-scene>
+    <a-sky src="space.jpg"></a-sky>
 
-    </a-scene>
+    <a-camera fov="80" position="0 1.8 0" near="0.2" cursor-color="#33CCFF"></a-camera>
+    <a-curvedimage src="img1.jpg" radius="5.7" theta-length="180" height="9" rotation="0 100 0" scale="1.8 1.2 1.2"></a-curvedimage>
+    <a-curvedimage src="img3.jpg" radius="5.7" theta-length="72" height="2.6" rotation="0 -45 0" position="0 0.7 0" scale="0.6 0.6 0.6"></a-curvedimage>
+    <a-curvedimage src="img4.jpg" radius="5.7" theta-length="72" height="3.02" rotation="0 210 0" scale="0.8 0.8 0.8"></a-curvedimage>
+    <a-curvedimage src="img5.jpg" radius="5.7" theta-length="180" height="9" rotation="0 -80 0" scale="1.2 1.2 1.2"></a-curvedimage>
+    <a-curvedimage src="img6.jpg" radius="5.7" theta-length="72" height="3.02" rotation="0 120 0" scale="0.8 0.8 0.8"></a-curvedimage>
+
+  </a-scene>
   </body>
 </html>

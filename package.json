@@ -1,7 +1,7 @@
 {
   "name": "shots_of_awe_images_vr",
   "description": "Images from shots of awe in virtual reality",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "engines": {
     "node": "5.0.0",
     "npm": "3.4.1"

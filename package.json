@@ -1,6 +1,6 @@
 {
-  "name": "Google Cardboard Experiement",
-  "description": "Google Cardboard Experiement from pictures I took in SE Asia",
+  "name": "shots_of_awe_spherical_images",
+  "description": "Images from shots of awe in virtual reality",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -14,10 +14,7 @@
   },
   "keywords": [
     "aframe",
-    "aframe-example",
-    "aframe-scene",
-    "aframe-boilerplate",
     "virtual reality",
-    "google cardboard"
+    "shots of awe"
   ]
 }

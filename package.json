@@ -1,6 +1,6 @@
 {
-  "name": "aframe-boilerplate",
-  "description": "Boilerplate for creating WebVR scenes using A-Frame",
+  "name": "Google Cardboard Experiement",
+  "description": "Google Cardboard Experiement from pictures I took in SE Asia",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -16,6 +16,8 @@
     "aframe",
     "aframe-example",
     "aframe-scene",
-    "aframe-boilerplate"
+    "aframe-boilerplate",
+    "virtual reality",
+    "google cardboard"
   ]
 }

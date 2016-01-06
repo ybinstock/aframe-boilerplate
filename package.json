@@ -1,7 +1,11 @@
 {
-  "name": "shots_of_awe_spherical_images",
+  "name": "shots_of_awe_images_vr",
   "description": "Images from shots of awe in virtual reality",
   "version": "0.0.0",
+  "engines": {
+    "node": "5.0.0",
+    "npm": "3.4.1"
+  },
   "license": "MIT",
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",

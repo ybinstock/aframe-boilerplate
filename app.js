@@ -1,7 +1,8 @@
 var express = require('express');
 var app = express();
 //Middleware
-app.get('index.html', function(req, res) {
+app.get('/', function(req, res) {
+  res.render('index');
   console.log('this is working')
 });
 

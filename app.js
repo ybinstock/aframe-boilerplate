@@ -1,5 +1,6 @@
-var http = require('http');
-var app = require('express').createServer();
+var express = require('express');
+var app = express();
+//Middleware
 app.get('/', function(req, res) {
   res.send("Hello World");
 });

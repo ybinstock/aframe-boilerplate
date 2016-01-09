@@ -1,3 +1,4 @@
+var http = require('http');
 var app = require('express').createServer();
 app.get('/', function(req, res) {
   res.send("Hello World");

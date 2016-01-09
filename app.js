@@ -1,6 +1,10 @@
 var express = require('express');
+var ejs = require('ejs');
 var app = express();
-//Middleware
+
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
+
 app.get('/', function(req, res) {
   res.render('root');
   console.log('this is working')

@@ -1,8 +1,8 @@
-var express = require('express'),
-    app     = express(),
-    server  = require('http').createServer(app);
-
-server.listen(process.env.PORT || 3000, function() {
-  console.log('server started');
+var app = require('express').createServer();
+app.get('/', function(req, res) {
+  res.send("Hello World");
 });
 
+app.listen(process.env.PORT || 3000, function() {
+  console.log("listening on 3000");
+});

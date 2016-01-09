@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 //Middleware
 app.get('/', function(req, res) {
-  res.render('index');
+  res.render('root');
   console.log('this is working')
 });
 

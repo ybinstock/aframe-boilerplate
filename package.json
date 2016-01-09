@@ -20,5 +20,8 @@
     "aframe",
     "virtual reality",
     "shots of awe"
-  ]
+  ],
+  "dependencies": {
+    "express": "4.13.3"
+  }
 }
